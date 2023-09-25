@@ -1,6 +1,5 @@
 truffle/build
-src/abi/*
-!src/abi/index.js
+src/abi
 
 # Logs
 logs

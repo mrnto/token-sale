@@ -1,4 +1,5 @@
 # Token Sale
+<img src="screenshots/sale.png" alt="Sale page" width=800 />
 
 ## Technologies & Tools
 - Vite
@@ -9,30 +10,11 @@
 - Truffle
 - Ganache
 
-## Screenshots
-
-<img src="screenshots/sale.png" alt="Home page" width=600 />
-
 ## Setting Up
-### 1. Clone/Download
-
-### 2. Install dependencies
-`npm install`
-
-### 3. Run local development blockchain
-`npx ganache -a 15`
-
-15 accounts for tests.
-
-### 4. Import development blockchain account to Metamask
-
-### 5. Migrate smart contracts
-`npx truffle migrate`
-
-### 6. Run tests
-`npx truffle test`
-
-### 7. Launch local server
-`npm run dev`
-
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+1. Clone/Download.
+2. Install dependencies using `npm install`.
+3. Run local development blockchain with `npx ganache -d -a 15`.
+4. Add custom ganache chain (RPC URL: `http://127.0.0.1:8545`, Chain ID: `1337`) and import development account to Metamask.
+5. Migrate smart contract using `npx truffle migrate`.
+6. `npx truffle test` to run tests.
+7. Launch local server `npm run dev` and open [http://localhost:5173](http://localhost:5173) to view project in your browser.
